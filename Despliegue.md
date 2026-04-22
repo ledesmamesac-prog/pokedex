@@ -179,7 +179,7 @@ Azure automáticamente:
 ```bash
 # Verificar que el archivo de workflow fue creado en tu repo
 git pull origin main
-ls .github/workflows/
+dir .github\workflows\
 # Deberías ver algo como: azure-static-web-apps-xxxx.yml
 ```
 
@@ -240,7 +240,7 @@ El archivo `staticwebapp.config.json` es el mecanismo nativo de Azure Static Web
 
 ```bash
 # Verificar que el archivo existe en la raíz
-cat staticwebapp.config.json
+type staticwebapp.config.json
 
 # Agregar, commit y push
 git add staticwebapp.config.json
