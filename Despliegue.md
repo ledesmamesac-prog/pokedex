@@ -70,10 +70,10 @@ cd pokedex
 git init
 
 # Copiar los archivos del proyecto clonado
-cp -r ../ac4dem1a/sistemas-distribuidos/poke-dex-lab/* .
+xcopy ..\ac4dem1a\sistemas-distribuidos\poke-dex-lab\* . /E /H /Y.
 
 # Verificar que los archivos estén presentes
-ls -la
+dir
 ```
 
 ### 2.4 — Agregar el archivo de configuración de seguridad
